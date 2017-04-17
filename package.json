@@ -1,0 +1,35 @@
+{
+  "name": "code-peer-server",
+  "version": "1.0.0",
+  "description": "Signaling server for code-peer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard",
+    "lint-focus": "standard-focus",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codealchemist/code-peer-server.git"
+  },
+  "keywords": [
+    "p2p",
+    "code",
+    "edior",
+    "server",
+    "signalling"
+  ],
+  "author": "Alberto Miranda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codealchemist/code-peer-server/issues"
+  },
+  "homepage": "https://github.com/codealchemist/code-peer-server#readme",
+  "dependencies": {
+    "socket.io": "^1.7.3",
+    "uuid": "^3.0.1"
+  },
+  "devDependencies": {
+    "standard-focus": "^1.1.2"
+  }
+}
