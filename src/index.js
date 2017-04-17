@@ -1,8 +1,7 @@
-const port = 80
-const io = require('socket.io').listen(port)
+const io = require('socket.io').listen()
 const uuid = require('uuid/v4')
 
-console.log(`SOCKET.IO SERVER listening on port ${port}`)
+console.log(`SOCKET.IO SERVER listening`)
 
 io.on('connection', (socket) => {
   console.log('-- socket connected')
