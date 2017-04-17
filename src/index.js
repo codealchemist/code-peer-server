@@ -1,4 +1,5 @@
-const io = require('socket.io').listen()
+const port = process.env.PORT || 7331
+const io = require('socket.io').listen(port)
 const uuid = require('uuid/v4')
 
 console.log(`SOCKET.IO SERVER listening`)
