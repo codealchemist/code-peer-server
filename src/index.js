@@ -1,4 +1,4 @@
-const port = 7331
+const port = 80
 const io = require('socket.io').listen(port)
 const uuid = require('uuid/v4')
 
